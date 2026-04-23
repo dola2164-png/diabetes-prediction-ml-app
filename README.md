@@ -155,9 +155,6 @@ Diabetes-Prediction-ML-Project/
 
 ---
 
-## 👨‍💻 Author
-
-**Thejas K S**
 
 ---
 

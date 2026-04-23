@@ -29,7 +29,7 @@ def main():
 
     # Input fields (number_input = BEST practice)
    # Input fields with realistic default values
-    Pregnancies = st.number_input("Number of Pregnancies", min_value=0, step=1, value=1)
+    Pregnancies = st.number_input("Number of Pregnancies", min_value=0, step=1, value=0)
     Glucose = st.number_input("Glucose Level", min_value=0.0, value=120.0)
     BloodPressure = st.number_input("Blood Pressure", min_value=0.0, value=70.0)
     SkinThickness = st.number_input("Skin Thickness", min_value=0.0, value=20.0)

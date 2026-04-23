@@ -28,14 +28,15 @@ def main():
     st.write("Enter the patient's medical details below:")
 
     # Input fields (number_input = BEST practice)
-    Pregnancies = st.number_input("Number of Pregnancies", min_value=0, step=1)
-    Glucose = st.number_input("Glucose Level", min_value=0.0)
-    BloodPressure = st.number_input("Blood Pressure", min_value=0.0)
-    SkinThickness = st.number_input("Skin Thickness", min_value=0.0)
-    Insulin = st.number_input("Insulin Level", min_value=0.0)
-    BMI = st.number_input("BMI", min_value=0.0)
-    DiabetesPedigreeFunction = st.number_input("Diabetes Pedigree Function", min_value=0.0)
-    Age = st.number_input("Age", min_value=0, step=1)
+   # Input fields with realistic default values
+    Pregnancies = st.number_input("Number of Pregnancies", min_value=0, step=1, value=1)
+    Glucose = st.number_input("Glucose Level", min_value=0.0, value=120.0)
+    BloodPressure = st.number_input("Blood Pressure", min_value=0.0, value=70.0)
+    SkinThickness = st.number_input("Skin Thickness", min_value=0.0, value=20.0)
+    Insulin = st.number_input("Insulin Level", min_value=0.0, value=80.0)
+    BMI = st.number_input("BMI", min_value=0.0, value=25.0)
+    DiabetesPedigreeFunction = st.number_input("Diabetes Pedigree Function", min_value=0.0, value=0.5)
+    Age = st.number_input("Age", min_value=0, step=1, value=30)
 
     diagnosis = ""
 

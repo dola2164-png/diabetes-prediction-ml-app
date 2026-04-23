@@ -103,28 +103,7 @@ The Streamlit app provides:
 
 ---
 
-## 🚀 How to Run the Project
 
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/thejasdev/Diabites_ML_Project.git
-cd Diabites_ML_Project
-```
-
-### Step 2: Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3: Run the Application
-
-```bash
-streamlit run frontend.py
-```
-
----
 
 ## 📁 Project Structure
 
